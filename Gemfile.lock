@@ -73,3 +73,6 @@ DEPENDENCIES
   watir
   watir-page-helper (> 0)
   watir-webdriver (> 0)
+
+BUNDLED WITH
+   1.10.6

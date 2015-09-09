@@ -5,11 +5,10 @@ Feature: User Login
 	So that I can access the application
 
 Scenario: 1. Login with valid credentials
-   
-    Given I am in the Login Page
-	When I enter the valid email and valid password
-	And I click on Sign in button
+    Given I am on Home Page
+	When I login to the dashborad
 	Then I should be logged in successfully
+	#Then I should be logged in successfully
 
 
 # Scenario: 2. Add_new_user with blank fields

@@ -1,27 +1,21 @@
-
-Given(/^I am in the Login Page$/) do
+Given(/^I am on Home Page$/) do
 @site = "Dishdash".downcase
 visit @site, :login_page
 on @site, :login_page do |login|
-  login.verify_login_screen
+ puts login.verify_login_screen
 end
 end
 
-When(/^I enter the valid email and valid password$/) do
+When(/^I login to the dashborad$/) do
   on @site, :login_page do |login|
+    login.enter_invalid_credentials
     login.enter_valid_credentials
   end
 end
 
-When(/^I click on Sign in button$/) do
+When(/^I should be logged in successfully$/) do
 on @site, :login_page do |login|
-  login.click_sign_in
-end
-end
-
-Then(/^I should be logged in successfully$/) do
-on @site, :login_page do |login|
-  login.verify_login_message
+ puts login.verify_login_message
 end
 end
 

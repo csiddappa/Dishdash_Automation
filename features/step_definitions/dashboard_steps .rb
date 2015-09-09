@@ -1,5 +1,5 @@
 Given(/^I am in the Dashboard page$/) do
-  @site = "Dishdash".downcase
+  @site = "dishdash".downcase
   visit @site, :dashboard_page
   on @site, :dashboard_page do |dashboard|
   	dashboard.verify_manage_dashboardpage
