@@ -1,0 +1,145 @@
+[
+  {
+    "source": "^I am in the Dashboard page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:1",
+    "steps": [
+      {
+        "name": "I am in the Dashboard page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Add New Dashboard$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:9",
+    "steps": [
+      {
+        "name": "I click on Add New Dashboard",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the Dashboard Name$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:16",
+    "steps": [
+      {
+        "name": "I enter the Dashboard Name",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Save button to save the data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:22",
+    "steps": [
+      {
+        "name": "I click on Save button to save the data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see a dashboard created flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:28",
+    "steps": [
+      {
+        "name": "I should see a dashboard created flash message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter blank data in the text field$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:38",
+    "steps": [
+      {
+        "name": "I enter blank data in the text field",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see a dashboard blank error message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:45",
+    "steps": [
+      {
+        "name": "I should see a dashboard blank error message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am in the Login Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:2",
+    "steps": [
+      {
+        "name": "I am in the Login Page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the valid email and valid password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:10",
+    "steps": [
+      {
+        "name": "I enter the valid email and valid password",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Sign in button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:16",
+    "steps": [
+      {
+        "name": "I click on Sign in button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be logged in successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:22",
+    "steps": [
+      {
+        "name": "I should be logged in successfully",
+        "args": [
+
+        ]
+      }
+    ]
+  }
+]
