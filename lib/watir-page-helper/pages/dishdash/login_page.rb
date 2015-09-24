@@ -13,7 +13,7 @@ module WatirPageHelper::Dishdash
         if @@verify_loginpage.exists?
         return "loginpage exists"
         else
-        raise "Landing Page is not exists"
+        raise "Landing Page does not exists"
         end 
     end
 
