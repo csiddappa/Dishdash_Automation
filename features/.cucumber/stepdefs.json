@@ -1,5 +1,239 @@
 [
   {
+    "source": "^I click on Add New Widgets button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:13",
+    "steps": [
+      {
+        "name": "I click on Add New Widgets button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on configure button of Github$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:21",
+    "steps": [
+      {
+        "name": "I click on configure button of Github",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the github data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:27",
+    "steps": [
+      {
+        "name": "I enter the github data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Save button to save the github data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:33",
+    "steps": [
+      {
+        "name": "I click on Save button to save the github data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Code climate and Configure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:40",
+    "steps": [
+      {
+        "name": "I click on Code climate and Configure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Save button to save the Code Climate data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:48",
+    "steps": [
+      {
+        "name": "I click on Save button to save the Code Climate data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Jira Sprint remaining days and configure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:54",
+    "steps": [
+      {
+        "name": "I click on Jira Sprint remaining days and configure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Save button to save sprint remaining days data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:63",
+    "steps": [
+      {
+        "name": "I click on Save button to save sprint remaining days data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Jira Sprint Progress and configure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:70",
+    "steps": [
+      {
+        "name": "I click on Jira Sprint Progress and configure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on save button to save Sprint Progress data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:78",
+    "steps": [
+      {
+        "name": "I click on save button to save Sprint Progress data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Burn Down Chart and configure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:84",
+    "steps": [
+      {
+        "name": "I click on Burn Down Chart and configure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on save button to save burn down chart data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:92",
+    "steps": [
+      {
+        "name": "I click on save button to save burn down chart data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Jenkins and configure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:98",
+    "steps": [
+      {
+        "name": "I click on Jenkins and configure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on save button to save Jenkins data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:106",
+    "steps": [
+      {
+        "name": "I click on save button to save Jenkins data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on New Relic and configure$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:112",
+    "steps": [
+      {
+        "name": "I click on New Relic and configure",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on save button to save New Relic data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:120",
+    "steps": [
+      {
+        "name": "I click on save button to save New Relic data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on OK button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:127",
+    "steps": [
+      {
+        "name": "I click on OK button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on wallboard button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/addwidgets_steps.rb:134",
+    "steps": [
+      {
+        "name": "I click on wallboard button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
     "source": "^I am in the Dashboard page$",
     "flags": "",
     "file_colon_line": "features/step_definitions/dashboard_steps .rb:1",
@@ -13,38 +247,12 @@
     ]
   },
   {
-    "source": "^I click on Add New Dashboard$",
+    "source": "^I Add New Dashboard$",
     "flags": "",
     "file_colon_line": "features/step_definitions/dashboard_steps .rb:9",
     "steps": [
       {
-        "name": "I click on Add New Dashboard",
-        "args": [
-
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I enter the Dashboard Name$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/dashboard_steps .rb:16",
-    "steps": [
-      {
-        "name": "I enter the Dashboard Name",
-        "args": [
-
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I click on Save button to save the data$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/dashboard_steps .rb:22",
-    "steps": [
-      {
-        "name": "I click on Save button to save the data",
+        "name": "I Add New Dashboard",
         "args": [
 
         ]
@@ -54,7 +262,7 @@
   {
     "source": "^I should see a dashboard created flash message$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/dashboard_steps .rb:28",
+    "file_colon_line": "features/step_definitions/dashboard_steps .rb:17",
     "steps": [
       {
         "name": "I should see a dashboard created flash message",
@@ -65,12 +273,12 @@
     ]
   },
   {
-    "source": "^I enter blank data in the text field$",
+    "source": "^I click on github edit button and modify the data$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/dashboard_steps .rb:38",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:1",
     "steps": [
       {
-        "name": "I enter blank data in the text field",
+        "name": "I click on github edit button and modify the data",
         "args": [
 
         ]
@@ -78,12 +286,12 @@
     ]
   },
   {
-    "source": "^I should see a dashboard blank error message$",
+    "source": "^I should be able to update the github data and see the flash message$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/dashboard_steps .rb:45",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:12",
     "steps": [
       {
-        "name": "I should see a dashboard blank error message",
+        "name": "I should be able to update the github data and see the flash message",
         "args": [
 
         ]
@@ -91,12 +299,12 @@
     ]
   },
   {
-    "source": "^I am in the Login Page$",
+    "source": "^I click on code climate edit button and modify the data$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/login_steps.rb:2",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:19",
     "steps": [
       {
-        "name": "I am in the Login Page",
+        "name": "I click on code climate edit button and modify the data",
         "args": [
 
         ]
@@ -104,12 +312,12 @@
     ]
   },
   {
-    "source": "^I enter the valid email and valid password$",
+    "source": "^I should be able to update the code climate data and see the flash message$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/login_steps.rb:10",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:28",
     "steps": [
       {
-        "name": "I enter the valid email and valid password",
+        "name": "I should be able to update the code climate data and see the flash message",
         "args": [
 
         ]
@@ -117,12 +325,155 @@
     ]
   },
   {
-    "source": "^I click on Sign in button$",
+    "source": "^I click on jira sprint remaining days edit button and modify the data$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/login_steps.rb:16",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:35",
     "steps": [
       {
-        "name": "I click on Sign in button",
+        "name": "I click on jira sprint remaining days edit button and modify the data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to update the srd data and see the flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:44",
+    "steps": [
+      {
+        "name": "I should be able to update the srd data and see the flash message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on jira sprint progress edit button and modify the data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:51",
+    "steps": [
+      {
+        "name": "I click on jira sprint progress edit button and modify the data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to update the sp data and see the flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:60",
+    "steps": [
+      {
+        "name": "I should be able to update the sp data and see the flash message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on jira burn down chart edit button and modify the data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:67",
+    "steps": [
+      {
+        "name": "I click on jira burn down chart edit button and modify the data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to update the bdc data and see the flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:76",
+    "steps": [
+      {
+        "name": "I should be able to update the bdc data and see the flash message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on jenkins edit button and modify the data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:83",
+    "steps": [
+      {
+        "name": "I click on jenkins edit button and modify the data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to update the jenkins data and see the flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:92",
+    "steps": [
+      {
+        "name": "I should be able to update the jenkins data and see the flash message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on new relic edit button and modify the data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:99",
+    "steps": [
+      {
+        "name": "I click on new relic edit button and modify the data",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to update the new relic data and see the flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/editwidget_steps.rb:108",
+    "steps": [
+      {
+        "name": "I should be able to update the new relic data and see the flash message",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on Home Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am on Home Page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login to the dashborad$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:9",
+    "steps": [
+      {
+        "name": "I login to the dashborad",
         "args": [
 
         ]
@@ -132,7 +483,7 @@
   {
     "source": "^I should be logged in successfully$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/login_steps.rb:22",
+    "file_colon_line": "features/step_definitions/login_steps.rb:16",
     "steps": [
       {
         "name": "I should be logged in successfully",

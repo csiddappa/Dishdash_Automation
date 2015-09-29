@@ -8,29 +8,52 @@ module WatirPageHelper::Dishdash
       direct_url "http://st.dishdashboard.qwinixtech.com/"
 
     def verify_login_screen
-        verify_loginpage = @browser.h3(:xpath, "//div[1]/div/form/h3")
-        verify_loginpage.wait_until_present
-        if verify_loginpage.exists?
+        @@verify_loginpage = @browser.h3(:xpath, "//div[1]/div/form/h3")
+        @@verify_loginpage.wait_until_present
+        if @@verify_loginpage.exists?
         return "loginpage exists"
-    end 
-end
-
-def enter_valid_credentials
-    @browser.text_field(:id, "email").set("admin@qwinixtech.com")
-        @browser.text_field(:id, "password").set("Password@1")
-                
-                #return "user is logged in successfully"
-      
-     end
-
-     def click_sign_in
-        @browser.button(:type, "submit").click 
+        else
+        raise "Landing Page does not exists"
+        end 
     end
+
+    def enter_valid_credentials
+        @@ele_email.set("admin@qwinixtech.com")
+        @@ele_pwd.set("Password@1")
+        @@login_btn.click 
+    end
+
+    def enter_invalid_credentials
+        @@ele_email = @browser.text_field(:id, "email")
+        @@ele_pwd = @browser.text_field(:id, "password")
+        @@login_btn = @browser.button(:type, "submit")
+         @@ele_email.set("")
+         @@ele_pwd.set("")
+         @@login_btn.click 
+         raise "User can login with empty credentials" unless @@verify_loginpage.exists?
+         @@ele_email.set("admin@qwinixtech.com")
+         @@ele_pwd.set("")
+         @@login_btn.click 
+         raise "User can login with without password" unless @@verify_loginpage.exists?
+         @@ele_email.set("")
+         @@ele_pwd.set("Password@1")
+         @@login_btn.click 
+         raise "User can login without username" unless @@verify_loginpage.exists?
+         @@ele_email.set("admin")
+         @@ele_pwd.set("abcdef")
+         @@login_btn.click 
+         raise "User can login with invalid_credentials" unless @@verify_loginpage.exists?
+    end
+
+    # def click_sign_in
+    #    @@login_btn = @browser.button(:type, "submit")
+    #    @@login_btn.click 
+    # end
     
     def verify_login_message
-        verify_loginmessage = @browser.p(:xpath, "//body/div[2]/div/p")
-        verify_loginmessage.wait_until_present
-        if verify_loginmessage.exists?
+        @@msg = @browser.p(:xpath, "//body/div[2]/div/p")
+        @@msg.wait_until_present
+        if @@msg.exists?
             return "User is logged in successfully"
         end
     end

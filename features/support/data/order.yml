@@ -9,8 +9,10 @@
 # @description: This file contains execution order of features. The highest number features executes first in the order
 
 ##
-features/alogin.feature : 800
+features/alogin.feature : 850
 features/bdashboard.feature: 750
-features/cnewuser.feature : 700
+features/addwidgets.feature: 700
+features/editwidget.feature: 650
+features/cnewuser.feature : 600
 #features/view_admin.feature : 700
 #features/delete_admin.feature : 650
